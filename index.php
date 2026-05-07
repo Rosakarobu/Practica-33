@@ -26,7 +26,6 @@
     <h1>Verificador de anagramas</h1>
     <p class="subtitulo">Ingresa dos palabras para comprobar si son anagramas</p>
 
-    <!-- Aquí está mi formulario principal -->
     <form method="POST" action="">
       <label for="palabra1">Primera palabra</label>
       <input type="text" id="palabra1" name="palabra1"
@@ -41,7 +40,6 @@
       <button type="submit">Verificar</button>
     </form>
 
-    <!-- Aquí muestro el resultado que calcula PHP -->
     <?php
     if ($_SERVER["REQUEST_METHOD"] === "POST") {
       $palabra1 = strtolower(trim($_POST["palabra1"]));
