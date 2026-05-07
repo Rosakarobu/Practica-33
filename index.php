@@ -30,12 +30,12 @@
     <form method="POST" action="">
       <label for="palabra1">Primera palabra</label>
       <input type="text" id="palabra1" name="palabra1"
-             placeholder="Ej: listen"
+             placeholder="Ej: amor"
              value="<?php echo isset($_POST['palabra1']) ? htmlspecialchars($_POST['palabra1']) : ''; ?>" />
 
       <label for="palabra2">Segunda palabra</label>
       <input type="text" id="palabra2" name="palabra2"
-             placeholder="Ej: silent"
+             placeholder="Ej: roma"
              value="<?php echo isset($_POST['palabra2']) ? htmlspecialchars($_POST['palabra2']) : ''; ?>" />
 
       <button type="submit">Verificar</button>
