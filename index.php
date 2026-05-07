@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Verificador de Anagramas</title>
+  <title>Ejercicio 33 - Rosa Karina Rosas Burgueño</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: Georgia, serif; background-color: #fff0f5; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
