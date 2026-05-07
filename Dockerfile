@@ -1,9 +1,9 @@
+FROM php:8.2-cli
 
-FROM php:8.2-apache
- 
-RUN a2dismod mpm_event mpm_worker 2>/dev/null; a2enmod mpm_prefork
- 
-COPY . /var/www/html/
- 
-EXPOSE 80
- 
+WORKDIR /app
+
+COPY . /app/
+
+EXPOSE 8080
+
+CMD ["php", "-S", "0.0.0.0:8080", "-t", "/app"]
